@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PaginaPrincipal from './pages/PaginaPrincipal/paginaPrincipal.js';
+import Portafolio from "./pages/Portafolio/portafolio.js";
+import Usuarios from "./pages/Usuarios/usuarios.js";
+import Administracion from "./pages/Administracion/administracion.js";
+import InformacionGeneral from "./pages/InformacionGeneral/informacionGeneral.js";
+import { ProtectedRoute } from './pages/ProtectedRoute/protectedRoute.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () =>{
+  return(
+    <BrowserRouter>
+      <Routes>
+      <Route element={<ProtectedRoute isAllowed={true}/>}>
+        <Route path="/portafolio" element = {<Portafolio/>}></Route>
+
+      </Route>
+
+        <Route path="/paginaPrincipal" element = {<PaginaPrincipal/>}></Route>
+        <Route path="/usuarios" element = {<Usuarios/>}></Route>
+        <Route path="/administracion" element = {<Administracion/>}></Route>
+        <Route path="/informacionGeneral" element = {<InformacionGeneral/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
