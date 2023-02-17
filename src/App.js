@@ -12,7 +12,8 @@ const App = () =>{
       <Routes>
       <Route element={<ProtectedRoute isAllowed={true}/>}>
         <Route path="/portafolio" element = {<Portafolio/>}></Route>
-
+        <Route path="" element = {<PaginaPrincipal/>}></Route>
+        
       </Route>
 
         <Route path="/paginaPrincipal" element = {<PaginaPrincipal/>}></Route>
