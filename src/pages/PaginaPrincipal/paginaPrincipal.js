@@ -27,39 +27,39 @@ const PaginaPrincipal = () => {
         <Grid item xs={12}>
         
             <item>
-                <Typography variant="h3" color={"white"} gutterBottom style={{ background: '#000033' }}>
+                <Typography variant="h3" color={"white"} mt={2} marginLeft={4} gutterBottom style={{ background: '#000033' }}>
                     Andres Mejia company - software engineer <LaptopWindowsIcon/>
                 </Typography>
             </item>    
-            <Link href="/InformacionGeneral">
-                <Button variant="outlined">
+            <Link href="/InformacionGeneral" marginLeft={4}>
+                <Button variant="outlined" >
                 Informacion General
                 </Button>
             </Link>
-            <Link href="/Administracion">
+            <Link href="/Administracion" marginLeft={4} >
                 <Button variant="outlined">
                 Administracion
                 </Button>
             </Link>
-            <Link href="/Portafolio">
+            <Link href="/Portafolio" marginLeft={4}>
                 <Button variant="outlined">
                 Portafolio
                 </Button>
             </Link>
-            <Link href="/Usuarios">
+            <Link href="/Usuarios" marginLeft={4}>
                 <Button variant="outlined">
                 Usuarios
                 </Button>
             </Link>
         </Grid>
-        <Grid container>
+        <Grid mt={6} container>
                     <Grid item xs={12}/>
                     
                         <Item2>
-                            <Typography variant="h5" marginLeft={1} gutterBottom>
+                            <Typography variant="h5" marginLeft={5} gutterBottom>
                                 <p> Para mas informacion no dudes en contactarme </p>
                             </Typography>
-                                <Grid item mt={{xs:4, md:4}}  mx={{xs:4}} ml={{xs:6, md:4}} md={8}>
+                                <Grid item mt={{xs:4, md:4}}  mx={{xs:4}} ml={{xs:6, md:5}} md={8}>
                                 <Button variant="outlined" style={{     border: '1px solid #0afdd7',color: "#0afdd7"}}>
                                 Contactame!
                                 </Button>

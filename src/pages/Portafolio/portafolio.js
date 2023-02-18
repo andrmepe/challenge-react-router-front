@@ -11,6 +11,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import KeyboardIcon from '@mui/icons-material/Keyboard';
+import Button from '@mui/material/Button';
+import { Link } from "@mui/material";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -77,7 +79,21 @@ const Portafolio = () => {
                 <Typography variant="h5" gutterBottom>
                 software engineer - A whole world in your hands for the creation of web pages <KeyboardIcon/>
                 </Typography> 
+               
             </Item>
+            <Grid container>
+                    <Grid item xs={3}/>
+                    <Grid item xs={6}>
+                <Item2>
+                            
+                <Link href="/PaginaPrincipal" marginLeft={4}>
+                <Button variant="outlined" style={{     border: '1px solid #003300',color: "#003300"}}>
+                    Volver a la pagina principal
+                </Button>
+                </Link>
+                </Item2>
+            </Grid>
+            </Grid>
             </Grid>
       </Grid>
     )
