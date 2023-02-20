@@ -36,8 +36,8 @@ const Usuarios = () => {
             </item>    
                 <Grid item pt={2} pb={4}>
                 <Stack pl={8} spacing={2} direction="row">
-                <Button variant="outlined">Crear usuario</Button>
-                <Button  variant="contained" onClick={() =>{}}>Iniciar sesion</Button>
+                <Button variant="outlined">create user</Button>
+                <Button  variant="contained" onClick={() =>{}}>Log In</Button>
                 </Stack>
                 </Grid>   
         <Grid mt={6} container>
@@ -45,11 +45,11 @@ const Usuarios = () => {
                     
                         <Item2>
                             <Typography variant="h5" marginLeft={7} gutterBottom>
-                                <p> Volver a la pagina principal </p>
+                                <p> Return to main page </p>
                             </Typography>
                             <Link href="/PaginaPrincipal" marginLeft={7}>
                             <Button variant="outlined" style={{     border: '1px solid #0afdd7',color: "#0afdd7"}}>
-                            Pagina Principal
+                            Main Page
                             </Button>
                             </Link>
                         </Item2>

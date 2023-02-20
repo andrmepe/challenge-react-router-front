@@ -58,15 +58,15 @@ const InformacionGeneral = () => {
       ))}
     </ImageList> 
             <Typography variant="h5" color={"white"} mt={2} marginLeft={4} gutterBottom>
-            <p> Manejamos todo tipo de negocios para la creacion de sus paginas webs </p>
+            <p> We handle all kinds of businesses for the creation of their web pages </p>
             </Typography>
             <Typography variant="h6" color={"white"} mt={2} marginLeft={4} gutterBottom>
-            <p> Volver a la pagina principal </p>
+            <p> Return to main page </p>
             </Typography>
            
             <Link href="/PaginaPrincipal" marginLeft={4}>
                 <Button variant="outlined" style={{     border: '1px solid #0afdd7',color: "#0afdd7"}}>
-                Pagina Principal
+                Main Page
                 </Button>
            </Link> 
         </Grid>

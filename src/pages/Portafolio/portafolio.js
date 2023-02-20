@@ -88,7 +88,7 @@ const Portafolio = () => {
                             
                 <Link href="/PaginaPrincipal" marginLeft={4}>
                 <Button variant="outlined" style={{     border: '1px solid #003300',color: "#003300"}}>
-                    Volver a la pagina principal
+                main page
                 </Button>
                 </Link>
                 </Item2>

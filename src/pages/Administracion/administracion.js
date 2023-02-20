@@ -28,7 +28,8 @@ const Administracion = () => {
         
             <item>
                 <Typography variant="h5" color={"white"} mt={2} marginLeft={4} marginRight={4} gutterBottom style={{ background: '#000033' }}>
-                Empowering teams with the most complete developer technical skills screening platform to confidently hire the best developers quickly.
+                Empowering teams with the most complete developer technical skills screening platform to 
+                confidently hire the best developers quickly.
                 Enhance your hiring with plagiarism prevention & fraud detection
                 Build a diverse team by mitigating bias from your tech recruitment process <LaptopWindowsIcon/>
                 </Typography>
@@ -59,11 +60,11 @@ const Administracion = () => {
                     
                         <Item2>
                             <Typography variant="h5" marginLeft={5} gutterBottom>
-                                <p> Volver a la pagina principal </p>
+                                <p> Return to main page </p>
                             </Typography>
                             <Link href="/PaginaPrincipal" marginLeft={4}>
                             <Button variant="outlined" style={{     border: '1px solid #0afdd7',color: "#0afdd7"}}>
-                            Pagina Principal
+                            Main Page
                             </Button>
                             </Link>   
                         </Item2>

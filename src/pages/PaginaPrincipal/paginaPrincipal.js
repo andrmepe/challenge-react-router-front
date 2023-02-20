@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 
+
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#BCE8EE',
     color: '#323637',
@@ -32,36 +33,36 @@ const PaginaPrincipal = () => {
                 </Typography>
             </item>    
             <Link href="/InformacionGeneral" marginLeft={4}>
-                <Button variant="outlined" >
-                Informacion General
+                <Button variant="outlined" style={{     border: '1px solid #b37700',color: "#b37700"}}>
+                General information 
                 </Button>
             </Link>
             <Link href="/Administracion" marginLeft={4} >
-                <Button variant="outlined">
-                Administracion
+                <Button variant="outlined" style={{     border: '1px solid #73264d',color: "#73264d"}}>
+                Administration
                 </Button>
             </Link>
             <Link href="/Portafolio" marginLeft={4}>
-                <Button variant="outlined">
+                <Button variant="outlined" style={{     border: '1px solid #730099',color: "#730099"}}>
                 Portafolio
                 </Button>
             </Link>
             <Link href="/Usuarios" marginLeft={4}>
-                <Button variant="outlined">
-                Usuarios
+                <Button variant="outlined" style={{     border: '1px solid #ff0066',color: "#ff0066"}}>
+                Users
                 </Button>
             </Link>
-        </Grid>
+           </Grid>
         <Grid mt={6} container>
                     <Grid item xs={12}/>
                     
                         <Item2>
                             <Typography variant="h5" marginLeft={5} gutterBottom>
-                                <p> Para mas informacion no dudes en contactarme </p>
+                                <p> For more information do not hesitate to contact me </p>
                             </Typography>
                                 <Grid item mt={{xs:4, md:4}}  mx={{xs:4}} ml={{xs:6, md:5}} md={8}>
                                 <Button variant="outlined" style={{     border: '1px solid #0afdd7',color: "#0afdd7"}}>
-                                Contactame!
+                                Contact me!
                                 </Button>
                                 </Grid>   
                         </Item2>
