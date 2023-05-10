@@ -42,7 +42,7 @@ const InformacionGeneral = () => {
         
             <item>
                 <Typography variant="h3" color={"white"} mt={2} marginLeft={4} gutterBottom style={{ background: '#47476b' }}>
-                    Andres Mejia company - software engineer 
+                    Mexican food and more
                 </Typography>
             </item>   
             <ImageList sx={{ width: 500, height: 150 }} cols={3} rowHeight={164}>
@@ -58,7 +58,7 @@ const InformacionGeneral = () => {
       ))}
     </ImageList> 
             <Typography variant="h5" color={"white"} mt={2} marginLeft={4} gutterBottom>
-            <p> We handle all kinds of businesses for the creation of their web pages </p>
+            <p> More than a meal, it is a family moment</p>
             </Typography>
             <Typography variant="h6" color={"white"} mt={2} marginLeft={4} gutterBottom>
             <p> Return to main page </p>

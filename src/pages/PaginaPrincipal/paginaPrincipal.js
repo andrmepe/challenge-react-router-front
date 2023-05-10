@@ -1,19 +1,12 @@
 import { Grid } from "@mui/material"
 import Button from '@mui/material/Button';
 import { Link } from "@mui/material";
-import LaptopWindowsIcon from '@mui/icons-material/LaptopWindows';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
+import Mexican from '../assets/Mexican.jpg'
 
-
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#BCE8EE',
-    color: '#323637',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-  }));
 
   const Item2 = styled(Paper)(({ theme }) => ({
     backgroundColor: '#000033',
@@ -24,12 +17,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const PaginaPrincipal = () => {
     return (
-    <Grid container spacing={2} style={{ background: '#000033' }}>
+    <Grid container spacing={2} width='100%' style={{ background: '#000033' }}>
         <Grid item xs={12}>
         
             <item>
                 <Typography variant="h3" color={"white"} mt={2} marginLeft={4} gutterBottom style={{ background: '#000033' }}>
-                    Andres Mejia company - software engineer <LaptopWindowsIcon/>
+                    Mexican Food in your hands <RestaurantIcon fontSize="60px"/>
                 </Typography>
             </item>    
             <Link href="/InformacionGeneral" marginLeft={4}>
@@ -53,6 +46,8 @@ const PaginaPrincipal = () => {
                 </Button>
             </Link>
            </Grid>
+           <img fontSize={'50px'} src={Mexican} alt='Mexican' style={{ width:'400px', background:'#ffffff',
+        heigh:'50px', position:'back', marginLeft:'55px',borderRadius:'20px',marginTop:'60px', marginBottom:'50px'}}></img>
         <Grid mt={6} container>
                     <Grid item xs={12}/>
                     

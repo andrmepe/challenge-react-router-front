@@ -3,14 +3,14 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import LaptopWindowsIcon from '@mui/icons-material/LaptopWindows';
-import CssIcon from '@mui/icons-material/Css';
-import JavascriptIcon from '@mui/icons-material/Javascript';
-import HtmlIcon from '@mui/icons-material/Html';
-import CodeIcon from '@mui/icons-material/Code';
+import RamenDiningIcon from '@mui/icons-material/RamenDining';
+import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
+import FoodBankIcon from '@mui/icons-material/FoodBank';
+import LunchDiningIcon from '@mui/icons-material/LunchDining';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import KeyboardIcon from '@mui/icons-material/Keyboard';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 import Button from '@mui/material/Button';
 import { Link } from "@mui/material";
 
@@ -37,18 +37,18 @@ const Portafolio = () => {
             <Grid item xs={12}>
             <Item>
                 <Typography variant="h3" gutterBottom>
-                    Andres Mejia - software engineer <LaptopWindowsIcon/>
+                    Restaurant Mexican food <LaptopWindowsIcon/>
                 </Typography> 
                 <Grid container>
                     <Grid item xs={3}/>
                     <Grid item xs={6}>
                         <Item2>
                             <Typography variant="h5" gutterBottom>
-                                <p>I am a software engineer who handles the following technologies</p>
-                                <JavascriptIcon />
-                                <HtmlIcon/>
-                                <CssIcon/>
-                                <CodeIcon />
+                                <p>The best meals at your disposal with the best chefs in the city</p>
+                                <DinnerDiningIcon />
+                                <FoodBankIcon/>
+                                <RamenDiningIcon/>
+                                <LunchDiningIcon />
                             </Typography>   
                         </Item2>
                     </Grid>
@@ -59,13 +59,13 @@ const Portafolio = () => {
                         <Item2>
                             <Typography variant="h5" gutterBottom>
                                 <p>In these networks you can find me</p>
-                                <a href="https://www.facebook.com/" target={"_blank"}>
+                                <a href="https://www.facebook.com/" target='_blank' rel=' noopener noreferrer'  >
                                     <FacebookIcon />
                                 </a>
-                                <a href="https://www.linkedin.com/feed/" target={"_blank"}>
+                                <a href="https://www.linkedin.com/feed/" target='_blank' rel=' noopener noreferrer'>
                                     <LinkedInIcon />
                                 </a>
-                                <a href="https://www.instagram.com/" target={"_blank"}>
+                                <a href="https://www.instagram.com/" target='_blank' rel=' noopener noreferrer'>
                                     <InstagramIcon />
                                 </a>
                             </Typography>   
@@ -77,7 +77,7 @@ const Portafolio = () => {
             <Grid item xs={12}>
             <Item>
                 <Typography variant="h5" gutterBottom>
-                software engineer - A whole world in your hands for the creation of web pages <KeyboardIcon/>
+                Many flavors to enjoy at any time <RestaurantIcon/>
                 </Typography> 
                
             </Item>
